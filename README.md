@@ -1,7 +1,7 @@
 # pick-a-champ
 Something to help you pick a champion for a ranked match
 
-- User provides list of champions they are comfortable playing
+- User provides list of champions they are comfortable playing (you do or you don't-- if you don't then just provides a list of champions)
 - User also provides list of champions on enemy team
 - User also provides list of banned champions
 
