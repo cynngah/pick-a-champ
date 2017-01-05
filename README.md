@@ -10,3 +10,7 @@ Uses Riot Games API to:
 - find out winrates synergizing with champions on your team
 - makes sure list of banned champions eliminated from final result
 - compile the average score/winrate and sort by that.
+
+
+- start with web app
+- after that's finished make an in game overlay app so players can get champ list in real time
