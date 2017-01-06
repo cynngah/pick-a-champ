@@ -1,1 +1,22 @@
-HELLO WORLD
+<!-- <body>
+    <form method="get">
+        Champion 1 name:<br>
+        <input type="text" name="champ1"><br>
+        Champion 2 name:<br>
+        <input type="text" name="champ2"><br>
+        Champion 3 name:<br>
+        <input type="text" name="champ3"><br>
+        Champion 4 name:<br>
+        <input type="text" name="champ4"><br>
+        Champion 5 name:<br>
+        <input type="text" name="champ5"><br>
+      <input type="submit" value="Submit">
+    </form>
+</body> -->
+
+
+<%= form_tag("/result", method: "post") do %>
+  <%= label_tag(:q, "Search for:") %>
+  <%= text_field_tag(:q) %>
+  <%= submit_tag("Search") %>
+<% end %>
