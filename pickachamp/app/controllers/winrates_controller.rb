@@ -1,5 +1,7 @@
+# require 'app/winrates'
+
 class WinratesController < ApplicationController
     def get_winrates
-        p params
+        @winrates = Winrate.all
     end
 end

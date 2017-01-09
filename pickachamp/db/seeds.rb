@@ -5,3 +5,5 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+champion1 = Winrate.create([{cname1: "Kayle", cname2: "Illaoi", wr: 65.00}])
+champion2 = Winrate.create([{cname1: "Shaco", cname2: "Elise", wr: 61.85}])

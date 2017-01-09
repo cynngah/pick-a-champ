@@ -1,22 +1,43 @@
-<!-- <body>
-    <form method="get">
-        Champion 1 name:<br>
-        <input type="text" name="champ1"><br>
-        Champion 2 name:<br>
-        <input type="text" name="champ2"><br>
-        Champion 3 name:<br>
-        <input type="text" name="champ3"><br>
-        Champion 4 name:<br>
-        <input type="text" name="champ4"><br>
-        Champion 5 name:<br>
-        <input type="text" name="champ5"><br>
-      <input type="submit" value="Submit">
-    </form>
-</body> -->
-
-
 <%= form_tag("/result", method: "post") do %>
-  <%= label_tag(:q, "Search for:") %>
-  <%= text_field_tag(:q) %>
-  <%= submit_tag("Search") %>
+    <%= label_tag(:q, "Champion 1") %>
+    <%= text_field_tag(:q) %> <br>
+    <%= label_tag(:q, "Champion 2") %>
+    <%= text_field_tag(:q) %> <br>
+    <%= label_tag(:q, "Champion 3") %>
+    <%= text_field_tag(:q) %> <br>
+    <%= label_tag(:q, "Champion 4") %>
+    <%= text_field_tag(:q) %> <br>
+    <%= label_tag(:q, "Champion 5") %>
+    <%= text_field_tag(:q) %> <br>
+    <%= submit_tag("Search") %>
 <% end %>
+<!--
+
+<%= form_for :wr do |f| %>
+  <p>
+    <%= label_tag(:q, "Champion 1") %>
+    <%= text_field(:champion1, :name) %>
+  </p>
+
+  <p>
+    <%= label_tag(:q, "Champion 2") %>
+    <%= text_field(:champion2, :name) %>
+  </p>
+  <p>
+    <%= label_tag(:q, "Champion 3") %>
+    <%= text_field(:champion3, :name) %>
+  </p>
+
+  <p>
+    <%= label_tag(:q, "Champion 4") %>
+    <%= text_field(:champion4, :name) %>
+  </p>
+
+  <p>
+    <%= label_tag(:q, "Champion 5") %>
+    <%= text_field(:champion5, :name) %>
+  </p>
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %> -->

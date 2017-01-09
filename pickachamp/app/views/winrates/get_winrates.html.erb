@@ -1,1 +1,6 @@
-hi
+<% @winrates.each do |winrate| %>
+<div class="message">
+  <p class="cname1"><%= winrate.cname1 %> against <%= winrate.cname2 %></p>
+  <p class="wr"><%= winrate.cname1 %> winrate: <%= winrate.wr %></p>
+</div>
+<% end %>
