@@ -1,16 +1,19 @@
 <%= form_tag("/result", method: "post") do %>
-    <%= label_tag(:q, "Champion 1") %>
-    <%= text_field_tag(:q) %> <br>
-    <%= label_tag(:q, "Champion 2") %>
-    <%= text_field_tag(:q) %> <br>
-    <%= label_tag(:q, "Champion 3") %>
-    <%= text_field_tag(:q) %> <br>
-    <%= label_tag(:q, "Champion 4") %>
-    <%= text_field_tag(:q) %> <br>
-    <%= label_tag(:q, "Champion 5") %>
-    <%= text_field_tag(:q) %> <br>
+    <%= label_tag(:myc, "Your Champion") %>
+    <%= text_field_tag(:myc) %> <br>
+    <%= label_tag(:c1, "Champion 1") %>
+    <%= text_field_tag(:c1) %> <br>
+    <%= label_tag(:c2, "Champion 2") %>
+    <%= text_field_tag(:c2) %> <br>
+    <%= label_tag(:c3, "Champion 3") %>
+    <%= text_field_tag(:c3) %> <br>
+    <%= label_tag(:c4, "Champion 4") %>
+    <%= text_field_tag(:c4) %> <br>
+    <%= label_tag(:c5, "Champion 5") %>
+    <%= text_field_tag(:c5) %> <br>
     <%= submit_tag("Search") %>
 <% end %>
+
 <!--
 
 <%= form_for :wr do |f| %>
