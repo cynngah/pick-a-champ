@@ -5,5 +5,15 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-champion1 = Winrate.create([{cname1: "Kayle", cname2: "Illaoi", wr: 65.00}])
-champion2 = Winrate.create([{cname1: "Shaco", cname2: "Elise", wr: 61.85}])
+# require 'csv'
+#
+# filename = File.dirname(__FILE__) + "/champs.csv"
+# csv_text = File.read(filename)
+# csv = CSV.parse(csv_text, :headers => true, :encoding => 'ISO-8859-1')
+# csv.each do |row|
+#     t = Champion.new
+#     t.champion_name = row['champion_name']
+#     t.champion_id = row['champion_id']
+#     t.save
+#     puts row.to_hash
+# end
